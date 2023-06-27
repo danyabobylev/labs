@@ -10,12 +10,14 @@ sudo apt update && sudo apt upgrade -y
 
 # Установка Apache2
 sudo apt install -y apache2
+sudo systemctl start apache2
 
 # Установка Python
 sudo apt install -y python3
 
 # Установка SSH-сервера
 sudo apt-get install ssh
+sudo systemctl restart sshd
 
 # Установка Git
 sudo apt install -y git
