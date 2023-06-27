@@ -1,1 +1,1 @@
-logwatch --detail High --mailto=root --range today --service xrdp --service vsftpd --service sshd --format html --output mail
+logwatch --detail High --mailto=root --range today --service xrdp --service vsftpd --service sshd 
